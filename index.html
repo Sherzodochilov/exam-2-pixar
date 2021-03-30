@@ -7,6 +7,7 @@
     <title>Pixer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -55,8 +56,8 @@
     </nav>
     <header>
         <div class="container">
-            <div class="header-box-left">
-                <h2 class="header-title">
+            <div data-aos="zoom-in" class="header-box-left">
+                <h2  class="header-title">
                     Biznesingizni keyingi bosqichga <br> olib chiqing
                 </h2>
                 <p class="header-info">
@@ -65,7 +66,7 @@
                 <a href="#" class="header-link">Xizmatlar bilan tanishish</a>
 
             </div>
-            <div class="header-video">
+            <div   class="header-video">
                 <iframe  src="https://www.youtube.com/embed/6_pru8U2RmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     
@@ -93,7 +94,7 @@
                 
             </div>
             <ul class="main-list">
-                <li class="main-item">
+                <li  data-aos="fade-up" class="main-item">
                     <img src="./img/website-illustration@2x.png" alt=""> 
                     <h3 class="main-item-title">
                         websayt Tuzish
@@ -103,7 +104,7 @@
                     </p>
                     
                 </li>
-                <li class="main-item">
+                <li  data-aos="fade-up" class="main-item">
                     <img src="./img/bot-illustration@2x.png" alt=""> 
                     <h3 class="main-item-title">
                         websayt Tuzish
@@ -113,7 +114,7 @@
                     </p>
                     
                 </li>
-                <li class="main-item">
+                <li  data-aos="fade-up" class="main-item">
                     <img src="./img/smm-illustration@2x.png" alt=""> 
                     <h3 class="main-item-title">
                         websayt Tuzish
@@ -129,7 +130,7 @@
                 
             </ul>
             <ul class="main-list-second">
-                <li class="main-item-second">
+                <li  data-aos="zoom-in" class="main-item-second">
                     <img src="./img/design-illustration@2x.png" alt=""> 
                     <h3 class="main-item-title">
                         websayt Tuzish
@@ -139,7 +140,7 @@
                     </p>
                     
                 </li>
-                <li class="main-item-second">
+                <li data-aos="fade-left" class="main-item-second">
                     <img src="./img/crm-illustration@2x.png" alt=""> 
                     <h3 class="main-item-title">
                         websayt Tuzish
@@ -176,10 +177,11 @@
        <section class="Tarif">
            <div class="container">
               <ul class="tarif-list">
-                  <li class="tarif-item">
+                  <li data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-center" class="tarif-item">
                         <img src="./img/student.png" alt="" class="tarif-photo">
 
-                        <span>
+                        <span >
                             <h3 class="tarif-title">
                                 Talablarni aniqlab chiqamiz
                             </h3>
@@ -190,7 +192,8 @@
                         </span>
                         
                     </li>
-                    <li class="tarif-item">
+                    <li data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-center" class="tarif-item">
                         <span>
                             <h3 class="tarif-title">
                                 Bir necha yechimlarni taklif qilamiz
@@ -203,7 +206,8 @@
                         <img src="./img/007.png" alt="" class="tarif-photo">
                         
                     </li>
-                    <li class="tarif-item">
+                    <li data-aos="fade-up"
+                      data-aos-anchor-placement="bottom-center" class="tarif-item">
                         <img src="./img/00001.png" alt="" class="tarif-photo">
 
                         <span>
@@ -217,7 +221,8 @@
                         </span>
                         
                     </li>
-                    <li class="tarif-item">
+                    <li data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-center" class="tarif-item">
                         <span>
                             <h3 class="tarif-title">
                                 A’lo sifat bilan bajarib topshiramiz
@@ -230,7 +235,8 @@
                         <img src="./img/jump.png" alt="" class="tarif-photo">
                         
                     </li>
-                    <li class="tarif-item">
+                    <li data-aos="fade-up"
+                     data-aos-anchor-placement="bottom-center" class="tarif-item">
                         <img src="./img/002.png" alt="" class="tarif-photo">
 
                         <span>
@@ -259,7 +265,8 @@
 
 
             </div>
-            <div class="link-order">
+            <div  data-aos="fade-up"
+             data-aos-anchor-placement="center-center" class="link-order">
                 <a href="#" class="order-link-under" >Buyurtma berish</a> 
             </div>
             
@@ -386,6 +393,10 @@
         </div>
         
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>
