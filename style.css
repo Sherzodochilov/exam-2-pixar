@@ -74,7 +74,8 @@ header .container{
     margin-top: 50px;
 }
 .header-box-left{
-    width: 100%;
+    width: 70%;
+    margin: auto;
 }
 .header-title {
     font-size: 30px;
@@ -415,8 +416,18 @@ footer{
 @media(max-width: 680px){
     .container{
         width: 540px;
-    }.main-list{ 
+    
+    
         
+        
+        
+}
+@media(max-width: 580px){
+    .container{
+        width: 440px;
+    }
+    }.main-list{ 
+            
         flex-direction: column;
         align-items: center;
     }
@@ -424,7 +435,7 @@ footer{
         width: 85%;
         
     }
-    
+
     .link-box{
         flex-direction: column;
         align-items: center;
@@ -448,15 +459,15 @@ footer{
         text-align: center;
     }
     .footer-list{
-       flex-direction: column-reverse;
-       
+    flex-direction: column-reverse;
+    
         
     }
     .sub-item-p{
         display: none;
     }
-    
-   
+
+
     .footer-item{
         display: none;
     }
@@ -469,15 +480,6 @@ footer{
     }
     iframe{
         height: 245px;
-    }
-    
-        
-        
-        
-}
-@media(max-width: 580px){
-    .container{
-        width: 90%;
     }
     
         
