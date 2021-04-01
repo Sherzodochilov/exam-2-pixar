@@ -31,11 +31,12 @@ body{
 .navbar .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
-.logo a {
-    color: black;
+.logo  {
+    
 }
 .nav-list {
     display: flex;
@@ -109,6 +110,8 @@ iframe{
     
 }
 .main-info{
+    width: 70%;
+    margin: auto;
     padding: 20px;
     color: grey;
 
@@ -155,6 +158,8 @@ iframe{
 .info-box-title {
 }
 .info-box-poragraf {
+    width: 70%;
+    margin: auto;
     padding: 20px 0;
     line-height: 30px;  
 }
@@ -273,6 +278,8 @@ input, select {
     padding-top: 30px;
 }
 .form-info {
+    width: 55%;
+    margin: auto;
     padding: 20px 0;
     font-size: 16px;
     line-height: 150%;
