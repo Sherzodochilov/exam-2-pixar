@@ -119,7 +119,7 @@ iframe{
 .main-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .main-list-second{
@@ -274,6 +274,8 @@ input, select {
 }
 .form-info {
     padding: 20px 0;
+    font-size: 16px;
+    line-height: 150%;
 }
 footer{
     background-color: black;
@@ -422,8 +424,10 @@ footer{
         align-items: center;
     }
     .main-item{
-        width: 70%;
+        width: 85%;
+        
     }
+    
     .link-box{
         flex-direction: column;
         align-items: center;
@@ -454,6 +458,8 @@ footer{
     .sub-item-p{
         display: none;
     }
+    
+   
     .footer-item{
         display: none;
     }
