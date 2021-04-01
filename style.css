@@ -62,6 +62,7 @@ button{
 }
 .btn-hamburger img{
     width: 35px;
+    background-color: white;
     
 
 }
@@ -205,6 +206,12 @@ iframe{
     align-items: center;
     padding-bottom: 30px;
     
+}
+.tarif-item-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-bottom: 30px;
 }
 span{
     margin: 15px 15px;
@@ -408,6 +415,36 @@ footer{
 @media(max-width: 580px){
     .container{
         width: 440px;
+    }
+    .main-list{ 
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-item{
+        width: 70%;
+    }
+    .link-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-link{
+        margin-bottom: 20px;
+    }
+    .tarif-item{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .tarif-item-left{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    span{
+        text-align: center;
     }
     .footer-list{
        flex-direction: column-reverse;
